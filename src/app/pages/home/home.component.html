@@ -1,21 +1,34 @@
-
 <header>
-<app-menu-bar></app-menu-bar>
-
+  <app-menu-bar></app-menu-bar>
 </header>
-
 
 <app-menu-title></app-menu-title>
 
 <div class="container-articles">
-    <div class="articles_main">
-        <app-big-card></app-big-card>
-    </div>
+  <div class="articles_main">
+    <app-big-card
+      photoCover="https://observatoriodeseries.uol.com.br/wp-content/uploads/2020/02/Disney.jpg"
+      cardTitle="SÉRIES MARVEL"
+      cardDescription="Novos Lançamentos Marvel"
+    >
+    </app-big-card>
+  </div>
 
-    <div class="articles others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+  <div class="articles others">
+    <app-small-card
+      cardTitle="Novos Lançamentos Programados Marvel"
+      photoCover="https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/7ec0067a-460f-11ec-aa6e-9587410378a2/marvel-disney-plus-shows.jpg">
+    </app-small-card>
 
-    </div>
+    <app-small-card
+      cardTitle="Veja calendário de jogos da Copa do Mundo - fase de grupos"
+      photoCover="https://files.tecnoblog.net/wp-content/uploads/2022/08/como-acompanhar-a-copa-do-mundo-de-2022-capa.png">
+    </app-small-card>
+
+    <app-small-card
+      cardTitle="Linguagens de Programação que estão em demanda no Mercado"
+      photoCover="https://www.tecnoveste.com.br/wp-content/uploads/2021/05/1_x8Fp9uOPgEaQdig7hV70qw.jpg">
+  </app-small-card>
+
+  </div>
 </div>
